@@ -463,3 +463,5 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Chinese readers can also use [CONTRIBUTI
 
 ## Contributing
 PRs welcome!
+
+> Engram is an open source project. Contributions welcome!
