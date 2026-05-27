@@ -75,9 +75,8 @@ ALIASES = {
 }
 
 FUZZY_ALIASES = {
-    "serch": "search",
     "searchh": "search",
-    "remeber": "add_lesson",
+    "remember": "add_lesson",
     "rember": "add_lesson",
 }
 
