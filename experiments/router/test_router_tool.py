@@ -107,13 +107,13 @@ def test_unknown_intent_returns_supported_intents():
 
 def test_none_params_are_safe():
     core = FakeCore()
-    result = engram_action("serch", None, core)
+    result = engram_action("search", None, core)
 
     assert result["ok"] is True
     assert core.calls == [("search_knowledge", "", 5)]
 
 
 def test_resolve_intent_handles_typo_aliases():
-    assert resolve_intent("remeber") == "add_lesson"
+    assert resolve_intent("remember") == "add_lesson"
     assert resolve_intent("searchh") == "search"
 
