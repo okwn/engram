@@ -122,3 +122,6 @@ By contributing, you agree that your contributions will be licensed under the [A
 ## Code of Conduct
 
 Be respectful, practical, and constructive. The goal is to make AI tools remember people better while keeping that memory under the user's control.
+
+## Contributors
+- Documentation improvements (2026)
