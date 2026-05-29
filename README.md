@@ -460,3 +460,5 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Chinese readers can also use [CONTRIBUTI
 ## License
 
 [Apache 2.0](LICENSE). Engram is free software. Your memory belongs to you.
+
+- Documentation updated for clarity
