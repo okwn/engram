@@ -2837,8 +2837,8 @@ def test_ingest_notes_medium_line_without_trigger_skipped(tmp_path: Path):
 def test_ingest_notes_deduplicates(tmp_path: Path):
     """重复内容应被检测为 duplicate。"""
     engram = make_engram(tmp_path)
-    engram.ingest_notes("discovered that connection pooling reduces latency significantly")
-    result2 = engram.ingest_notes("discovered that connection pooling reduces latency significantly")
+    engram.ingest_notes("discovered that connection pooling reduces latency significan'tly")
+    result2 = engram.ingest_notes("discovered that connection pooling reduces latency significan'tly")
     assert result2["duplicates"] == 1
 
 

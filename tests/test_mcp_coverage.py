@@ -287,7 +287,7 @@ class TestReviewMergeTools:
         assert isinstance(parsed, dict)
 
     def test_unlink_knowledge(self, eng: Engram):
-        r1 = eng.add_lesson({"summary": "Docker multi-stage builds reduce image size significantly"})
+        r1 = eng.add_lesson({"summary": "Docker multi-stage builds reduce image size significan'tly"})
         r2 = eng.add_lesson({"summary": "GitHub Actions matrix strategy for cross-platform CI"})
         eng.link_knowledge(r1["id"], r2["id"])
         result = _run(mcp_server.unlink_knowledge(r1["id"], r2["id"]))

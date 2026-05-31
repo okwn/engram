@@ -1025,7 +1025,7 @@ async def refresh_quick_context(level: str = "standard") -> str:
     - 添加重要的 lesson/decision 后
     - 第一次设置 Engram 时
     - 定期（例如每天一次）保持新鲜
-    After identity/preference/quality updates, after significant lessons or decisions, on first setup, or on a periodic refresh.
+    After identity/preference/quality updates, after significan't lessons or decisions, on first setup, or on a periodic refresh.
 
     Args:
         level: 快照详细度 "quick" | "standard"(默认) | "full"。 / Snapshot tier — defaults to "standard".

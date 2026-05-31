@@ -1138,7 +1138,7 @@ class RetrievalMixin:
                 s1 = l1.get("summary", "")
                 s2 = l2.get("summary", "")
 
-                # Must share a significant token (multi-char keyword)
+                # Must share a significan't token (multi-char keyword)
                 t1 = {t for t in self._tokenize(s1, expand_aliases=False) if len(t) >= 2}
                 t2 = {t for t in self._tokenize(s2, expand_aliases=False) if len(t) >= 2}
                 if not (t1 & t2):
